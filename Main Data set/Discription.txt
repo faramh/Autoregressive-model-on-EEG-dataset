@@ -1,0 +1,10 @@
+Data used for neural network input. Preprocessing applied to the original EEG:
+	Total of 18 subjects in each group
+	Data normalization
+	Averaging channels from 5 Lobes
+
+
+2-ToRegressor-Mfile:
+Mfiles prepared for computing the regression-based part of the study:
+	Contains 5Dimensional normalized EEG data and the corresponding 3D Koopman data
+ 	Data is arranged based on subject[1...18]
